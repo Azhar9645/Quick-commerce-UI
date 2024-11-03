@@ -31,7 +31,7 @@ class NotificationScreen extends StatelessWidget {
                   color: Colors.grey.withOpacity(0.9),
                   spreadRadius: 2,
                   blurRadius: 10,
-                  offset: Offset(0, -6),
+                  offset: const Offset(0, -6),
                 ),
               ],
             ),
@@ -55,7 +55,7 @@ class NotificationScreen extends StatelessWidget {
                       ),
                     ),
                   ),
-                  const SizedBox(width: 10.0),
+                  kWidth10,
                   Text(
                     'Notifications',
                     style: j20B,
@@ -86,7 +86,7 @@ class NotificationScreen extends StatelessWidget {
                                     images[index],
                                     height: 50,
                                   ),
-                                  SizedBox(width: 10,),
+                                  kWidth10,
                                   Expanded(
                                       child: Column(
                                           crossAxisAlignment:

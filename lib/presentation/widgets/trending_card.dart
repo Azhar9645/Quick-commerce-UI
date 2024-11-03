@@ -1,6 +1,7 @@
- import 'package:flutter/material.dart';
+ import 'package:bw_assignment1/core/constants.dart';
+import 'package:flutter/material.dart';
 
-SizedBox TrendingCard() {
+SizedBox trendingCard() {
     return SizedBox(
       height: 200,
       child: GridView.builder(
@@ -16,27 +17,23 @@ SizedBox TrendingCard() {
                   child: Image.asset(
                     'assets/ice cream.png',
                   )),
-              const SizedBox(
-                width: 5,
-              ),
-              const Column(
+              kWidth5,
+               Column(
                 children: [
-                  Text(
+                  const Text(
                     'Mithas Bhandar',
                     style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
                   ),
-                  Text('Sweets, North Indian'),
-                  Text('(store location)  |  6.4 kms'),
+                  const Text('Sweets, North Indian'),
+                  const Text('(store location)  |  6.4 kms'),
                   Row(
                     children: [
-                      Icon(
+                      const Icon(
                         Icons.star,
                         size: 15,
                       ),
-                      SizedBox(
-                        width: 5,
-                      ),
-                      Text('4.1  |  45 mins'),
+                      kWidth5,
+                      const Text('4.1  |  45 mins'),
                     ],
                   )
                 ],

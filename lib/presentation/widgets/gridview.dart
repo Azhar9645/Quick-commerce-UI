@@ -1,7 +1,7 @@
 import 'package:bw_assignment1/core/constants.dart';
 import 'package:flutter/material.dart';
 
-class GridScreen extends StatelessWidget {
+class gridScreen extends StatelessWidget {
   final List<String> imagePaths = [
     'assets/food delivery.png',
     'assets/medicine.png',

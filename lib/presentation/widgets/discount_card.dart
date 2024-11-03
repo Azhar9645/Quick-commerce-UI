@@ -1,7 +1,7 @@
 import 'package:bw_assignment1/core/constants.dart';
 import 'package:flutter/material.dart';
 
-Container DiscountCard({required int index}) {
+Container discountCard({required int index}) {
     Color cardColor = index == 1 ? Colors.blueAccent : kGreen;
 
     return Container(

@@ -3,7 +3,10 @@ import 'package:bw_assignment1/presentation/screens/home_screen.dart';
 import 'package:flutter/material.dart';
 
 class BottomNavBarScreen extends StatefulWidget {
+  const BottomNavBarScreen({super.key});
+
   @override
+  // ignore: library_private_types_in_public_api
   _BottomNavBarScreenState createState() => _BottomNavBarScreenState();
 }
 
@@ -34,7 +37,7 @@ class _BottomNavBarScreenState extends State<BottomNavBarScreen> {
               color: Colors.grey.withOpacity(0.3),
               spreadRadius: 2,
               blurRadius: 10,
-              offset: Offset(0, -6),
+              offset: const Offset(0, -6),
             ),
           ],
         ),

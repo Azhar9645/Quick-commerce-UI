@@ -15,7 +15,9 @@ class ApiService {
         return compute(_parseNotification, response.body);
       }
     } catch (e) {
-      print(e.toString()); // Logs any error that occurs during the fetch.
+      if (kDebugMode) {
+        print(e.toString());
+      } // Logs any error that occurs during the fetch.
     }
     return [];
   }

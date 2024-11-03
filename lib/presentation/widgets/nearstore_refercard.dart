@@ -1,7 +1,7 @@
 import 'package:bw_assignment1/core/constants.dart';
 import 'package:flutter/material.dart';
 
-Padding NearStores() {
+Padding nearStores() {
     return Padding(
       padding: const EdgeInsets.only(left: 20),
       child: Column(
@@ -28,7 +28,7 @@ Padding NearStores() {
     );
   }
 
-  Padding ReferEarn() {
+  Padding referEarn() {
     return Padding(
       padding: const EdgeInsets.only(left: 20, right: 20),
       child: Container(
@@ -57,9 +57,7 @@ Padding NearStores() {
                             fontWeight: FontWeight.bold,
                             color: kWhite,
                           )),
-                      SizedBox(
-                        width: 10,
-                      ),
+                      kWidth10,
                       Image.asset('assets/right arrow.png')
                     ],
                   )

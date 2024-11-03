@@ -111,6 +111,10 @@ SizedBox kHeight10 =const SizedBox(height: 10);
 SizedBox kHeight20 =const SizedBox(height: 20);
 SizedBox kHeight32 =const SizedBox(height: 32);
 
+SizedBox kWidth20 =const SizedBox(width: 20);
+SizedBox kWidth10 =const SizedBox(width: 10);
+SizedBox kWidth5 =const SizedBox(width: 5);
+
 
 // border radiusfinal
 BorderRadius kradius10 = BorderRadius.circular(10);

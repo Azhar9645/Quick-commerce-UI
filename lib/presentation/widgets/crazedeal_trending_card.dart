@@ -1,13 +1,11 @@
 import 'package:bw_assignment1/core/constants.dart';
 import 'package:flutter/material.dart';
 
-SizedBox CrazeDeal() {
+SizedBox crazeDeal() {
     return SizedBox(
       height: 170,
       child: ListView.separated(
-        separatorBuilder: (context, index) => const SizedBox(
-          width: 20,
-        ),
+        separatorBuilder: (context, index) =>kWidth20,
         scrollDirection: Axis.horizontal,
         itemCount: 2,
         itemBuilder: (context, index) {
@@ -41,11 +39,11 @@ SizedBox CrazeDeal() {
                           ),
                         ),
                         kHeight10,
-                        const Row(
+                         Row(
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.center,
                           children: [
-                            Text(
+                            const Text(
                               'Explore',
                               style: TextStyle(
                                 fontSize: 17,
@@ -54,10 +52,8 @@ SizedBox CrazeDeal() {
                                 letterSpacing: 0.5,
                               ),
                             ),
-                            SizedBox(
-                              width: 5,
-                            ),
-                            Icon(
+                            kWidth5,
+                            const Icon(
                               Icons.arrow_forward,
                               color: Colors.orange,
                             )
@@ -73,7 +69,7 @@ SizedBox CrazeDeal() {
     );
   }
 
-  Row Trending() {
+  Row trending() {
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [

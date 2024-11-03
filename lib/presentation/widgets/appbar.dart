@@ -8,12 +8,12 @@ AppBar appbar() {
       mainAxisAlignment: MainAxisAlignment.start,
       children: [
         const Icon(Icons.location_on, color: kGreen),
-        const SizedBox(width: 5.0),
+        kWidth5,
         Text(
-          'ABCD, New Delhi',
+          'ABCD, New Delhi', 
           style: j17B,
         ),
-        const SizedBox(width: 5.0),
+        kWidth5,
         const Icon(Icons.keyboard_arrow_down, color: kGreen),
       ],
     ),

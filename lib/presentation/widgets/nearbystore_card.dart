@@ -22,9 +22,7 @@ class NearByStoresCard extends StatelessWidget {
               fit: BoxFit.contain,
             ),
           ),
-          const SizedBox(
-            width: 20,
-          ),
+          kWidth20,
           Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
@@ -45,28 +43,26 @@ class NearByStoresCard extends StatelessWidget {
                   const SizedBox(
                     width: 70,
                   ),
-                  const Column(
+                  Column(
                     crossAxisAlignment: CrossAxisAlignment.center,
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Row(
                         mainAxisAlignment: MainAxisAlignment.end,
                         children: [
-                          Icon(
+                          const Icon(
                             Icons.star,
                             size: 18,
                           ),
-                          SizedBox(
-                            width: 5,
-                          ),
-                          Text(
+                          kWidth5,
+                          const Text(
                             '4.1',
                             style: TextStyle(
                                 fontWeight: FontWeight.bold, fontSize: 18),
                           )
                         ],
                       ),
-                      Text(
+                      const Text(
                         '45 mins',
                         style: TextStyle(
                             fontSize: 16,
@@ -102,20 +98,14 @@ class NearByStoresCard extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   Image.asset('assets/off.png'),
-                  const SizedBox(
-                    width: 5,
-                  ),
+                  kWidth5,
                   const Text(
                     'Upto 10% OFF',
                     style: TextStyle(fontSize: 12, fontWeight: FontWeight.bold),
                   ),
-                  const SizedBox(
-                    width: 5,
-                  ),
+                  kWidth5,
                   Image.asset('assets/item.png'),
-                  const SizedBox(
-                    width: 5,
-                  ),
+                  kWidth5,
                   const Text(
                     '3400+ items available',
                     style: TextStyle(fontSize: 12, fontWeight: FontWeight.bold),

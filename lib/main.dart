@@ -37,10 +37,9 @@ class MyApp extends StatelessWidget {
             ),
           ),
         ),
-        // Define the initial route and the available named routes
         initialRoute: '/',
         routes: {
-          '/': (context) => BottomNavBarScreen(), // Initial screen
+          '/': (context) => const BottomNavBarScreen(), 
           '/home': (context) => const HomeScreen(),
           '/notification': (context) =>  NotificationScreen(),
         },

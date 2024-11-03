@@ -1,7 +1,7 @@
 import 'package:bw_assignment1/core/constants.dart';
 import 'package:flutter/material.dart';
 
-Row SearchArea(BuildContext context) {
+Row searchArea(BuildContext context) {
   return Row(
     mainAxisAlignment: MainAxisAlignment.spaceBetween,
     children: [
